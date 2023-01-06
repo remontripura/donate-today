@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url('../images/donation0.jpg');
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    background-color: rgb(176, 176, 176);
+    background-blend-mode: multiply;
+    color: #ffff;
+
+}
+.title{
+    margin: 200px 350px;
+}
+.header-title{
+    font-size: 60px;
+    margin-bottom: 10px;
+    font-family: inter;
+}
+.header-description{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.primary-btn{
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #FF5959;
+}

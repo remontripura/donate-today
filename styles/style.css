@@ -9,9 +9,9 @@ header{
     position: relative;
     overflow: hidden;
     text-align: center;
-    background-color: rgb(176, 176, 176);
+    background-color: rgb(146, 146, 146);
     background-blend-mode: multiply;
-    color: #ffff;
+    color: rgb(239, 235, 235);
 
 }
 .title{
@@ -33,7 +33,10 @@ header{
     background-color: #FF5959;
     margin: 10px 0px;
 }
-
+.primary-btn a{
+    text-decoration: none;
+    color:#d5d5d5;
+}
 /* Section Style */
 section{
     margin-top: 120px;
@@ -99,7 +102,7 @@ section{
 .donate-plan-description{
 
 }
-/* Donation Blg */
+/* Donation Blog */
 .donations-blog{
     margin: 150px 200px;
 }
@@ -122,7 +125,47 @@ section{
 .donation-description{
     width: 50%;
 }
-/* update style */
+/* Update Style */
 .update{
+    text-align: center;
+    width: 500px;
+    margin: auto;
+}
+/* Email Box */
+.email{
+    width: 700px;
+    margin:30px auto;
+    background: #FFF4D6;
+    padding: 70px 180px;
+}
+form{
+    display: flex;
+    justify-content: center;
     
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.input-one{
+    width: 250px;
+    background-color: #D9D9D9;
+}
+.input-two{
+    background-color: #FF5959;
+}
+/* Footer Style */
+footer{
+    background-color: #0B0D17;
+    text-align: center;
+    padding: 15px 0;
+}
+.footer-title{
+    font-family: lobster;
+    color: #FF5959;
+    margin-bottom: 10px;
+}
+.footer-description{
+    color:#d5d5d5;
 }
